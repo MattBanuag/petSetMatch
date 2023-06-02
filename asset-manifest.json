@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/petSetMatch/static/js/main.ec902504.js",
+    "index.html": "/petSetMatch/index.html",
+    "main.ec902504.js.map": "/petSetMatch/static/js/main.ec902504.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ec902504.js"
+  ]
+}
