@@ -1,3 +1,5 @@
+import Button from './Button';
+
 function Banner() {
   return (
     <section id="banner">
@@ -13,6 +15,11 @@ function Banner() {
                 officia deserunt mollit anim id est laborum.
             </p>
         </article>
+
+        <div>
+            <Button isPrimary={false}/>
+            <Button isPrimary={true}/>
+        </div>
     </section>
   )
 }
