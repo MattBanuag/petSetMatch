@@ -13,7 +13,7 @@ p {
     line-height: 32.5px;
 }
 
-a {
+a, footer p {
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
 }
@@ -106,3 +106,23 @@ header a { color: #FFF; }
 .gallery-img {
     height: 400px;
 }
+
+/* = = = = = = = = = = = = = = = = = = = = = = */
+/* FOOTER COMPONENT                            */
+/* = = = = = = = = = = = = = = = = = = = = = = */
+footer {
+    margin-top: 120px;
+    padding: 10px 0;
+    background-color: #ff7096;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p { color: #f0efeb; }
+
+
