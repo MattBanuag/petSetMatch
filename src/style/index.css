@@ -29,8 +29,8 @@ button {
 /* = = = = = = = = = = = = = = = = = = = = = = */
 /* SPACING                                     */
 /* = = = = = = = = = = = = = = = = = = = = = = */
-#banner {
-    margin: 80px 12%;
+#banner, #gallery {
+    padding: 60px 12%;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = */
@@ -64,7 +64,7 @@ header a { color: #FFF; }
 .account-group { gap: 8px; }
 
 /* = = = = = = = = = = = = = = = = = = = = = = */
-/* BANNER COMPONENT                            */
+/* BANNER AND BUTTON COMPONENT                 */
 /* = = = = = = = = = = = = = = = = = = = = = = */
 #banner, #banner article{
     display: flex;
@@ -92,3 +92,17 @@ header a { color: #FFF; }
     background-color: #FFF;
 }
 
+/* = = = = = = = = = = = = = = = = = = = = = = */
+/* GALLERY COMPONENT                           */
+/* = = = = = = = = = = = = = = = = = = = = = = */
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #f4f4f4;
+}
+
+.gallery-img {
+    height: 400px;
+}
