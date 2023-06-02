@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.js": "/petSetMatch/static/js/main.ec902504.js",
+    "main.css": "/petSetMatch/static/css/main.8c05cf64.css",
+    "main.js": "/petSetMatch/static/js/main.4e713604.js",
+    "static/media/pet2.jpg": "/petSetMatch/static/media/pet2.497af93eefc181132bea.jpg",
+    "static/media/pet1.jpg": "/petSetMatch/static/media/pet1.d4f9055fa1e6d264a04d.jpg",
+    "static/media/pet4.jpg": "/petSetMatch/static/media/pet4.d8e021d00bb8d591714f.jpg",
+    "static/media/pet3.jpg": "/petSetMatch/static/media/pet3.65278bc4e31073630a0e.jpg",
+    "static/media/pet-house-outlined.png": "/petSetMatch/static/media/pet-house-outlined.5cc1266455751b204169.png",
     "index.html": "/petSetMatch/index.html",
-    "main.ec902504.js.map": "/petSetMatch/static/js/main.ec902504.js.map"
+    "main.8c05cf64.css.map": "/petSetMatch/static/css/main.8c05cf64.css.map",
+    "main.4e713604.js.map": "/petSetMatch/static/js/main.4e713604.js.map"
   },
   "entrypoints": [
-    "static/js/main.ec902504.js"
+    "static/css/main.8c05cf64.css",
+    "static/js/main.4e713604.js"
   ]
 }
