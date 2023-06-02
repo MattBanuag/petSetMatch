@@ -1,0 +1,55 @@
+/* = = = = = = = = = = = = = = = = = = = = = = */
+/* BASIC                                       */
+/* = = = = = = = = = = = = = = = = = = = = = = */
+* {
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+p { font-family: 'Montserrat', sans-serif; }
+
+a {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+
+.indigo { color: #2d3142; }
+
+/* = = = = = = = = = = = = = = = = = = = = = = */
+/* CONTAINER                                   */
+/* = = = = = = = = = = = = = = = = = = = = = = */
+.container {
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = */
+/* HEADER COMPONENT                            */
+/* = = = = = = = = = = = = = = = = = = = = = = */
+header {
+    padding: 10px 12%;
+    background-color: #ff7096;
+}
+
+header nav, header nav ul, .logo-group, .account-group {
+    display: flex;
+    align-items: center;
+}
+
+header nav { justify-content: space-between; }
+
+header nav ul { gap: 30px; }
+
+header a { color: #FFF; }
+
+.title { 
+    font-size: 2.3rem; 
+    color: #f0efeb;
+}
+
+.logo { width: 10%; }
+
+.logo-group { gap: 10px; }
+
+.account-group { gap: 8px; }
+
+
+
