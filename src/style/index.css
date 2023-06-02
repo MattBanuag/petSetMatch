@@ -18,6 +18,8 @@ a, footer p {
     font-weight: 600;
 }
 
+a { transition: ease-in-out 0.2s; }
+
 .indigo { color: #2d3142; }
 
 button {
@@ -81,15 +83,17 @@ header a { color: #FFF; }
 }
 
 .Primary {
+    border: 2px solid #06aed5;
     color: #FFF;
-
     background-color: #06aed5;
+    transition: ease-in-out 0.3s;
 }
 
 .Secondary {
     border: 2px solid #06aed5;
     color: #06aed5;
     background-color: #FFF;
+    transition: ease-in-out 0.3s;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = */
@@ -125,4 +129,19 @@ footer article {
 
 footer p { color: #f0efeb; }
 
+/* = = = = = = = = = = = = = = = = = = = = = = */
+/* TRANSITIONS                                 */
+/* = = = = = = = = = = = = = = = = = = = = = = */
+a:hover {
+    color: #85d8ff;
+}
 
+.Primary:hover {
+    color: #06aed5;
+    background-color: #FFF;
+}
+
+.Secondary:hover {
+    color: #FFF;
+    background-color: #06aed5;
+}
